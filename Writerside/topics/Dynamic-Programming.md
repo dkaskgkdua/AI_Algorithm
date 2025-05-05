@@ -1,5 +1,7 @@
 # Dynamic Programming
 메모리를 사용해서 계산을 줄이는 방법
+- 알고리즘 시간복잡도 비교
+  - ![complexity.png](complexity.png)
 
 ## Assembly-Line Scheduling (조립 라인 스케줄링)
 - 문제 설명: 두 개의 조립 라인과 n개의 작업 스테이션이 있을 때, 자동차가 조립 라인을 따라 가장 빠르게 완성되도록 경로를 결정하는 문제.
@@ -65,6 +67,8 @@
 
 ## Matrix-Chain Multiplication (행렬 곱셈 최적 순서)
 - 문제 설명: 여러 개의 행렬 곱셈 순서를 바꿔서 계산 횟수를 최소화.(결과는 순서에 상관없이 같지만 연산량이 다름)
+- Brute-force approach
+  - ![mcm_brute.png](./images/mcm_brute.png)
 - 접근 방식:
   - **m[i][j]**: i번째부터 j번째 행렬까지 곱하는 데 필요한 최소 연산 수
   - **s[i][j]**: 최소 연산이 되는 분할 지점 k 저장
@@ -73,3 +77,9 @@
   - 공간: Θ(n²)
 - 연산량 차이 예시
   - ![matrix_chain_exam.jpg](./images/matrix_chain_exam.jpg)
+- dynamic programming 적용
+  - ![mcm_dynamic_for.png](./images/mcm_dynamic_for.png)
+  - 예시
+    - ![mcm_example.png](./images/mcm_example.png)
+- 슈도코드
+  - ![mcm_code.png](./images/mcm_code.png)

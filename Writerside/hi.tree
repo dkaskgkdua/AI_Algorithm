@@ -4,8 +4,9 @@
 
 <instance-profile id="hi"
                  name="Help Instance"
-                 start-page="Default-topic.md">
+                 start-page="Dynamic-Programming.md">
 
-    <toc-element topic="Default-topic.md"/>
     <toc-element topic="Dynamic-Programming.md"/>
+    <toc-element topic="Greedy-Algorithm.md"/>
+    <toc-element topic="Amortized-Analysis.md"/>
 </instance-profile>
