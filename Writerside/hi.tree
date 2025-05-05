@@ -9,4 +9,5 @@
     <toc-element topic="Dynamic-Programming.md"/>
     <toc-element topic="Greedy-Algorithm.md"/>
     <toc-element topic="Amortized-Analysis.md"/>
+    <toc-element topic="Elementary-Graph-Algorithms.md"/>
 </instance-profile>
