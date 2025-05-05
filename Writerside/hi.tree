@@ -6,6 +6,7 @@
                  name="Help Instance"
                  start-page="Dynamic-Programming.md">
 
+    <toc-element topic="Disjoint-Sets.md"/>
     <toc-element topic="Dynamic-Programming.md"/>
     <toc-element topic="Greedy-Algorithm.md"/>
     <toc-element topic="Amortized-Analysis.md"/>
