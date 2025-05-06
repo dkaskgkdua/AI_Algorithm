@@ -6,9 +6,11 @@
                  name="Help Instance"
                  start-page="Dynamic-Programming.md">
 
-    <toc-element topic="Disjoint-Sets.md"/>
     <toc-element topic="Dynamic-Programming.md"/>
     <toc-element topic="Greedy-Algorithm.md"/>
     <toc-element topic="Amortized-Analysis.md"/>
     <toc-element topic="Elementary-Graph-Algorithms.md"/>
+    <toc-element topic="Disjoint-Sets.md"/>
+    <toc-element topic="Minimum-Spanning-Tree.md"/>
+    <toc-element topic="Single-Source-Shortest-Paths.md"/>
 </instance-profile>
